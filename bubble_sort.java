@@ -22,5 +22,11 @@ public class basic_sorts{
         int arr[]={67,5,45,9,34,2};
         bubble_sort(arr);
         printArray(arr);
+
+        Arrays.sort(arr);
+        printArray(arr);
+        Arrays.sort(arr,starting_index,ending_index);
+        Arrays.sort(arr,Collections.reverseOrder());
+        printArray(arr);
     }
 }
